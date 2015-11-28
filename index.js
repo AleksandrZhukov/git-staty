@@ -1,6 +1,8 @@
+// node-debug --web-host 192.168.0.4 --cli index.js
+
 var exec = require('child_process').execSync,
   fs = require("fs"),
-  repo = process.argv[2],
+  repo = '../frontend-kit', //process.argv[2]
   commits;
 
 
